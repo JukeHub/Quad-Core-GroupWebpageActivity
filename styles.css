@@ -88,3 +88,21 @@ button {
 button:hover {
     background: #0056b3;
 }
+
+/* Elena's styling */
+.elena-photo {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.moodboard {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.moodboard img {
+    width: 150px;
+    height: 150px;
+}
