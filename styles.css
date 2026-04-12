@@ -58,9 +58,10 @@ header nav button:hover {
 /* Card styling for individual team bios */
 .card {
    background: #241744;
-   color: #451966;
+   color: #862787;
    border-radius: 8px;
-   box-shadow: 0 0 10px rgba(0, 245, 245, 0.3);
+    border: 2px solid #00F5FF;
+   box-shadow: 0 0 15px rgba(0, 245, 245, 0.3);
    margin: 10px;
    padding: 20px;
    flex: 1 1 calc(30% - 40px);
@@ -81,7 +82,7 @@ h2 {
 
 
 h3{
-   color: #ED29FF;
+   color: #130833;
    margin: 0 0 10px;
 }
 
@@ -97,9 +98,10 @@ h3{
 /* Button styling */
 button {
    font-family: "Ubuntu Mono", monospace;
-   background: #ED29FF;
-   color: #E0E0FF;
+   background: #130833;
+   color: #FF0099;
    border: 3px solid #00F5FF;
+    box-shadow: 0 0 15px rgba(0, 245, 245, 0.3);
    padding: 10px 15px;
    border-radius: 5px;
    cursor: pointer;
@@ -185,7 +187,8 @@ button:hover {
 
 /*Team Vision-Team Rules*/
 .team-rules {
-    background: #fff;
+    background: #ED29FF;
+    color: #130833;
     padding: 15px;
     border-radius: 8px;
     margin-top: 20px;
