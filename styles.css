@@ -30,7 +30,6 @@ header nav {
 
 
 header nav button {
-   font-family: "Ubuntu Mono", monospace;
    background: #130833;
    color: #FF0099;
    border: 3px solid #00F5FF;
@@ -83,7 +82,7 @@ h2 {
 
 
 h3{
-   color: #130833;
+   color: #862787;
    margin: 0 0 10px;
 }
 
@@ -99,7 +98,6 @@ h3{
 
 /* Button styling */
 button {
-   font-family: "Ubuntu Mono", monospace;
    background: #130833;
    color: #FF0099;
    border: 3px solid #00F5FF;
