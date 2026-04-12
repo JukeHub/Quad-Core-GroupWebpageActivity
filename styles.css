@@ -150,3 +150,11 @@ button:hover {
     border: 2px solid #c7dbff;
     box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
 }
+
+/* Jasmine's Styling */
+.jasmine-photo{
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
+    border: 3px solid #edb2dc;
+}
