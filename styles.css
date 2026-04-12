@@ -9,7 +9,7 @@ body {
 
 /* Header section styling */
 header {
-   background: #2A1757;
+    background: linear-gradient(180deg, #0D0221, #1A1141);
    color: #ED29FF;
    padding: 10px 0;
    text-align: center;
@@ -18,7 +18,7 @@ header {
 
 /* Styling for team logo image */
 .team-logo {
-   width: 150px; /* Adjust the size as needed */
+   width: 200px; /* Adjust the size as needed */
    margin-top: 10px;
 }
 
@@ -30,13 +30,14 @@ header nav {
 
 
 header nav button {
-   background: #ED29FF;
-   color: #451966;
-   border: none;
+   font-family: "Ubuntu Mono", monospace;
+   background: #130833;
+   color: #FF0099;
+   border: 3px solid #00F5FF;
+    box-shadow: 0 0 15px rgba(0, 245, 245, 0.3);
    padding: 10px 15px;
    border-radius: 5px;
    cursor: pointer;
-   margin: 0 5px;
 }
 
 
@@ -91,7 +92,8 @@ h3{
 .bio {
    display: none;
    margin-top: 10px;
-   color: #451966;
+   background: #241744;
+   color: #862787;
 }
 
 
@@ -187,11 +189,14 @@ button:hover {
 
 /*Team Vision-Team Rules*/
 .team-rules {
-    background: #ED29FF;
-    color: #130833;
-    padding: 15px;
-    border-radius: 8px;
-    margin-top: 20px;
-    text-align: left;
-    color: #333;
+    background: #241744;
+   color: #862787;
+   border-radius: 8px;
+    border: 2px solid #00F5FF;
+   box-shadow: 0 0 15px rgba(0, 245, 245, 0.3);
+   margin: 10px;
+   padding: 20px;
+   flex: 1 1 calc(30% - 40px);
+   text-align: left;
+   transition: transform 0.2s;
 }
